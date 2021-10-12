@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+  body {
+    background-image: url("./CO2mr_Background.png");
+    background-position: 50% 50%;
+  }
+
+  #welcome-section > h1 {
+      text-align: center;
+      color: white;
+      text-shadow: 2px 2px #ff0000;
+    }
+
+    #welcome-section > h2 {
+      text-align: center;
+      font-size: .6em;
+      color: gray;
+      text-shadow: 1px 1px #fff;
+    }
+
+    #welcome-section {
+      display: flex;
+      flex-direction: column;
+    }
+
+  </style>
+
+  <body>
+    <div id="container">
+
+      <nav id="navbar">
+        <a href="#Materials">Materials</a>
+        <a href="#Green Technology">Green Technology</a>
+      </nav>
+
+      <section id="welcome-section">
+        <h1>Say CO2omorrow to Your Carbon Footprint</h1>
+        <h2>Connecting the future of green technology with consumers</h2>
+
+      </section>
+
+      <form onSubmit="myFunction()" action="/action_page.php">
+          <label for="material">Material:</label>
+          <input type="text" id="material" name="material" placeholder="ex: wood, plastic..." ><br><br>
+          <input type="submit" value="Submit">
+
+          
+      <form>
+
+      <script>
+        function myFunction() {
+          alert("The form was submitted");
+        }
+      </script>
+
+
+
+
+</html>

@@ -1,0 +1,68 @@
+.App {
+  text-align: center;
+}
+
+html {
+  background-image: url("CO2mr (1).png");
+  background-repeat: repeat-y;
+}
+
+.welcome-section > h1 {
+    text-align: center;
+    font-size: 25;
+    color: white;
+    text-shadow: 2px 2px green;
+}
+
+.welcome-section > h2 {
+  text-align: center;
+  font-size: .9em;
+  color: gray;
+  text-shadow: 1px 1px blue;
+}
+
+.welcome-section {
+  display: flex;
+  flex-direction: column;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  position: absolute;
+  margin-right: 0%;
+  margin-top: 0%;
+}
+
+nav a {
+  color: white;
+}
+
+label {
+  color:white;
+}
+
+li {
+  color: white;
+}
+
+form {
+  margin-top: 33%;
+}
+
+form input {
+  border: 5px;
+  border-radius: 15px;
+  width: 25%;
+  height: 8%;
+  font-size: 1.4em;
+}
+
+form button {
+  background-color: white;
+  color: black;
+  font-size: 1.1em;
+  border-radius: 5%;
+}
